@@ -1,0 +1,15 @@
+D:\DotNet\User Interfaces\IndianChessClub\IndianChessClub\bin\IndianChessClub.dll
+D:\DotNet\User Interfaces\IndianChessClub\IndianChessClub\bin\IndianChessClub.pdb
+D:\DotNet\User Interfaces\IndianChessClub\IndianChessClub\obj\Debug\ResolveAssemblyReference.cache
+D:\DotNet\User Interfaces\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.dll
+D:\DotNet\User Interfaces\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.pdb
+C:\Users\computer\Desktop\IndianChessClub\IndianChessClub\bin\IndianChessClub.dll
+C:\Users\computer\Desktop\IndianChessClub\IndianChessClub\bin\IndianChessClub.pdb
+C:\Users\computer\Desktop\IndianChessClub\IndianChessClub\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\computer\Desktop\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.dll
+C:\Users\computer\Desktop\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.pdb
+C:\Users\computer\Desktop\Chandana\IndianChessClub\IndianChessClub\bin\IndianChessClub.dll
+C:\Users\computer\Desktop\Chandana\IndianChessClub\IndianChessClub\bin\IndianChessClub.pdb
+C:\Users\computer\Desktop\Chandana\IndianChessClub\IndianChessClub\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\computer\Desktop\Chandana\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.dll
+C:\Users\computer\Desktop\Chandana\IndianChessClub\IndianChessClub\obj\Debug\IndianChessClub.pdb

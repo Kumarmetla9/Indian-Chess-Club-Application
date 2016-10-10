@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ChessClubMaster.master.cs"  Inherits="IndianChessClub.ChessClubMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="Stylesheet" href="Styles/Master.css" type="text/css" runat="server" />
+    <title>ICC</title>
+          
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:Image ID="Image2" ImageUrl="~/images/icc.jpg" runat="server" />
+       <div class="header">Indian Chess Club</div>   
+   <div class="header3"><asp:HyperLink ID="hlk1" runat="server" Text="Register" NavigateUrl="~/Register.aspx" Font-Underline="false" ForeColor="Navy"></asp:HyperLink> 
+   <asp:HyperLink ID="hlk2" runat="server" Text=" \ Help" NavigateUrl="~/Help.aspx" Font-Underline="false" ForeColor="Navy"></asp:HyperLink></div>
+    <div class="headers">
+    <asp:ImageButton ID="Image1Button" runat="server" Height="31px" 
+        ImageUrl="~/images/TWTTR.bmp" Width="37px" ToolTip="Twitter"  />
+    
+    <asp:ImageButton ID="Image3Button" runat="server" Height="31px" ImageUrl="~/images/FB.bmp" 
+        style="margin-top: 0px" Width="35px"  ToolTip="facebook"/>
+    <asp:ImageButton ID="Image4Button" runat="server" Height="30px" ImageUrl="~/images/YT.bmp" 
+        Width="36px"  ToolTip="You-Tube" /></div>
+    <div>
+    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="menu" Font-Size="Medium" ForeColor="Navy" StaticMenuItemStyle-HorizontalPadding="40px" StaticHoverStyle-BorderStyle="Inset" StaticHoverStyle-BackColor="#33CCCC" StaticSelectedStyle-Font-Bold="true" >
+    <Items>
+    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx" ></asp:MenuItem>
+    <asp:MenuItem Text="Play" Value="Play" NavigateUrl="~/Play.aspx"></asp:MenuItem>
+    <asp:MenuItem Text="Photo Gallery" Value="Photo Gallery" NavigateUrl="~/Photo.aspx"></asp:MenuItem>
+    <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/AboutUs.aspx"></asp:MenuItem></Items></asp:Menu>
+
+   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+         <div class="footer" style="background-color: #3366FF">
+    <asp:HyperLink ID="hlk3" runat="server" Font-Underline="false" Text="FAQ" ForeColor="Navy" NavigateUrl="~/FAQ.aspx"></asp:HyperLink>     
+    <asp:HyperLink ID="hlk5" runat="server" Font-Underline="false" Text=" \ Feedback" ForeColor="Navy" NavigateUrl="~/Feedback.aspx"></asp:HyperLink>
+    <asp:HyperLink ID="hlk6" runat="server" Font-Underline="false" Text=" \ SiteMap" ForeColor="Navy" NavigateUrl="~/SiteMap.aspx" Font-Bold="true"></asp:HyperLink><br />
+    <asp:Label ID="lbl1" runat="server" Text="&copy;Indian Chess Club" ForeColor="Navy" Font-Bold="true"></asp:Label></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
